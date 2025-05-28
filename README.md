@@ -14,7 +14,7 @@ a valid TSP route. This algorithm has low time complexity, but there are some re
 ### Introduction of the testing and visualization
 We wrote a function to generate a large number of matrices and data groups that meet the TSP problem, input them into each algorithm to get the solution. And there are another two functions, one is to draw the graph of each solution and the other is to count the running time of each algorithm and draw it as a line graph like the following:
 ![](https://github.com/ShunxiXXX/TSP_Algorithms_Comparison/blob/main/Graphs/G1.png)
-![A example graph of solution](https://github.com/ShunxiXXX/TSP_Algorithms_Comparison/blob/main/Graphs/G2.png)
+![A example graph of solution](https://github.com/ShunxiXXX/TSP_Algorithms_Comparison/blob/main/Graphs/G2.png "A example graph of solution")
 ## File information
 You can find that we divide the Python code of each algorithm block into different files.
 tsp_report.ipynb is a Jupyter Notebook file, it describes the whole process of implementing each algorithm and visualizing its runtime, and includes all the python code and detailed interpretation for the codes. At the same time, you can modify and run the code in this file to complete the visualization process.
