@@ -9,11 +9,11 @@ After completing the general algorithm for TSP problems, a distance function was
 #### II. Branch and Bound
 In this algorithm a function sort_tries is used to sort the feasible nodes and then we could prioritize promising paths. This strategy can solve the TSP problem with less running time in some cases.
 #### III. Approximation
-This algorithm use a greedy algorithm (similar to Prim’salgorithm) to find the Minimum Spanning Tree (MST) of the input gragh and then Performs a depth-first traversal of the MST to generate a traversal path. Finally removes duplicate nodes from the traversal path to produce
+This algorithm use a greedy algorithm (similar to Prim's algorithm) to find the Minimum Spanning Tree (MST) of the input gragh and then Performs a depth-first traversal of the MST to generate a traversal path. Finally removes duplicate nodes from the traversal path to produce
 a valid TSP route. This algorithm has low time complexity, but there are some restrictions on the input graph, and the final result is not necessarily the shortest path, which is usually only an approximate value.
 ### Introduction of the testing and visualization
 We wrote a function to generate a large number of matrices and data groups that meet the TSP problem, input them into each algorithm to get the solution. And there are another two functions, one is to draw the graph of each solution and the other is to count the running time of each algorithm and draw it as a line graph like the following:
-![](https://github.com/ShunxiXXX/Knapsack_Algorithms_Comparison/blob/main/pic.png)
+![Line graph of running time for each algorithms](https://github.com/ShunxiXXX/TSP_Algorithms_Comparison/blob/main/Graphs/G1.png)
 ![](https://github.com/ShunxiXXX/Knapsack_Algorithms_Comparison/blob/main/pic.png)
 ## File information
 You can find that we divide the Python code of each algorithm block into different files.
